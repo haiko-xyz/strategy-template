@@ -1,10 +1,11 @@
 [package]
-cairo-version = "2.3.1"
+cairo-version = "2.5.4"
 description = "Starter template for building strategies on Haiko."
 name = "haiko_strategy_template"
 version = "0.1.0"
+edition = "2023_11"
 
 [dependencies]
-starknet = "2.3.1"
+starknet = "2.5.4"
 haiko_lib = { git = "https://github.com/haiko-xyz/library.git" }
-openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", branch = "main" }
+openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", tag = "v0.9.0" }

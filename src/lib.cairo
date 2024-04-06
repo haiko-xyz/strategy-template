@@ -1,2 +1,2 @@
-mod interface;
-mod strategy;
+pub mod interface;
+pub mod strategy;
